@@ -1,10 +1,30 @@
-import React from "react";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { Button } from "../ui/button";
-import { ChevronsUpDown } from "lucide-react";
+function MenuSelectable() {
+  return (
+    <Select>
+      <SelectTrigger className="w-36">
+        <SelectValue placeholder="Menu" />
+      </SelectTrigger>
+      <SelectContent>
+        <SelectItem value="planes">Planes</SelectItem>
+        <SelectItem value="features">Features</SelectItem>
+        <SelectItem value="contacto">Contacto</SelectItem>
+        <SelectItem value="tc">T&C</SelectItem>
+      </SelectContent>
+    </Select>
+  );
+}
 
 export default function NavBar() {
   return (
-    <div className="flex justify-between items-center pr-7 py-2 ">
+    <div className="flex justify-between items-center p-7 ">
       <div className="flex gap-2 items-center">
         <img
           src="https://cdn-icons-png.flaticon.com/128/5200/5200787.png?ga=GA1.1.1536754857.1700396359&semt=aisemanticweb&semd=none&semg=2105250945&se=google&sv=1"
@@ -15,11 +35,8 @@ export default function NavBar() {
       </div>
       <div className="flex justify-between">
         <div className="flex gap-2">
-          <Button>Descargar</Button>
-          <Button variant="secondary" className="flex items-center gap-3">
-            Menu
-            <ChevronsUpDown className="h-4 w-4" />
-          </Button>
+          <Button>Iniciar Sesion</Button>
+          <MenuSelectable />
         </div>
       </div>
     </div>
