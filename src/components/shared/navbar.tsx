@@ -24,7 +24,7 @@ function MenuSelectable() {
 
 export default function NavBar() {
   return (
-    <div className="flex justify-between items-center p-7 ">
+    <div className="flex justify-between items-center py-7 px-14 ">
       <div className="flex gap-2 items-center">
         <img
           src="https://cdn-icons-png.flaticon.com/128/5200/5200787.png?ga=GA1.1.1536754857.1700396359&semt=aisemanticweb&semd=none&semg=2105250945&se=google&sv=1"
