@@ -3,6 +3,7 @@ import Description from "./pages/description";
 import Features from "./pages/features";
 import Home from "./pages/home";
 import Hero from "./pages/hero";
+import Samples from "./pages/samples";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       </section>
       <section>
         <Features />
+      </section>
+      <section>
+        <Samples />
       </section>
     </AppLayout>
   );
