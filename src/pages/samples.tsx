@@ -1,4 +1,4 @@
-import React from "react";
+"react";
 import backgroundImage from "../assets/background-samples.svg";
 
 export default function Samples() {
