@@ -4,25 +4,21 @@ import Features from "./pages/features";
 import Home from "./pages/home";
 import Hero from "./pages/hero";
 import Samples from "./pages/samples";
+import Testimonials from "./pages/testimonials";
+import CallToAction from "./pages/call-to-action";
+import Footer from "./pages/footer";
 
 function App() {
   return (
     <AppLayout>
-      <section>
-        <Home />
-      </section>
-      <section>
-        <Hero />
-      </section>
-      <section>
-        <Description />
-      </section>
-      <section>
-        <Features />
-      </section>
-      <section>
-        <Samples />
-      </section>
+      <Home />
+      <Hero />
+      <Description />
+      <Features />
+      <Samples />
+      <Testimonials />
+      <CallToAction />
+      <Footer />
     </AppLayout>
   );
 }

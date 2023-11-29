@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import appStoreLogo from "@/assets/app-store.svg";
+import appStoreLogo from "@/assets/app-store-white.svg";
 import googlePlayLogo from "@/assets/google-play.svg";
 
 export default function Home() {

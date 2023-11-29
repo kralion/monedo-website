@@ -8,9 +8,9 @@ export default function Features() {
       <h1 className="font-montserrat font-black text-4xl tracking-tight text-center">
         Nuestras Funcionalidades
       </h1>
-      <p className="text-lg  text-center px-[350px]">
+      <p className="text-lg  text-center px-[290px]">
         Con nuestras funcionalidades a medida podrás controlar tus gastos y ser
-        mas eficiente / conciente con tu dinero.
+        mas eficiente y conciente de los gastos que realizas.
       </p>
       <div className="grid grid-rows-3 gap-7 grid-flow-col ">
         <div className="w-[600px] row-span-3 space-y-10 pt-10 text-center items-center flex flex-col justify-start  border-t-2 bg-teal-200 border-teal-100 rounded-3xl h-[600px] relative overflow-hidden">
@@ -26,7 +26,7 @@ export default function Features() {
             className="absolute h-full -bottom-52 left-30 w-full object-contain"
           />
         </div>
-        <div className="w-[600px]   pl-10 py-10  border-t-2 bg-lime-200 justify-between  flex border-lime-100 rounded-3xl h-[250px] relative overflow-hidden">
+        <div className="w-[600px]  pl-10 py-10  border-t-2 bg-lime-200 justify-between  flex border-lime-100 rounded-3xl h-[250px] relative overflow-hidden">
           <div className="space-y-5 flex  flex-col justify-center">
             <span className="font-montserrat font-black text-3xl tracking-tight ">
               Grafico de gastos
