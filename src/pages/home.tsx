@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import appStoreLogo from "@/assets/app-store.svg";
+import googlePlayLogo from "@/assets/google-play.svg";
 
 export default function Home() {
   return (
@@ -18,11 +19,7 @@ export default function Home() {
             App Store
           </Button>
           <Button className="rounded-full flex items-center gap-3 p-6 px-10">
-            <img
-              src="/src/assets/google-play.svg"
-              alt="app-store"
-              className="w-5"
-            />
+            <img src={googlePlayLogo} alt="app-store" className="w-5" />
             Google Play
           </Button>
         </div>

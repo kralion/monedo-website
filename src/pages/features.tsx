@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
-
+import featuresAsset from "@/assets/save-goals.svg";
+import chartGraphicAsset from "@/assets/chart-graphic.svg";
+import notifiesAsset from "@/assets/notifies.svg";
 export default function Features() {
   return (
     <div className="space-y-7 px-14">
@@ -19,7 +21,7 @@ export default function Features() {
             Obtener la App
           </Button>
           <img
-            src="/src/assets/save-goals.svg"
+            src={featuresAsset}
             alt="image"
             className="absolute h-full -bottom-52 left-30 w-full object-contain"
           />
@@ -34,7 +36,7 @@ export default function Features() {
               para que puedas cumplir tus metas
             </p>
           </div>
-          <img src="/src/assets/chart-graphic.svg" alt="image" width={250} />
+          <img src={chartGraphicAsset} alt="image" width={250} />
         </div>
         <div className="w-[600px] row-span-2 space-y-10 p-10  border-t-2 bg-indigo-200 border-indigo-100 rounded-3xl flex justify-between h-[320px] relative overflow-hidden">
           <div className="space-y-5 flex  flex-col justify-center">
@@ -49,7 +51,7 @@ export default function Features() {
               Obtener la App
             </Button>
           </div>
-          <img src="/src/assets/notifies.svg" alt="image" width={250} />
+          <img src={notifiesAsset} alt="image" width={250} />
         </div>
       </div>
     </div>
