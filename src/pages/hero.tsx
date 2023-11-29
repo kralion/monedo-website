@@ -16,12 +16,14 @@ export default function Hero() {
         />
         <img src={updatedRegisteredAsset} alt="notification" />
         <img
-          className="absolute top-96 left-16  "
+          className="absolute top-96 left-[90px]  "
           src={chartGraphicAsset}
           alt="notification"
         />
       </div>
-      <img src={blackAsset} alt="phone" />
+      <div>
+        <img src={blackAsset} alt="phone" />
+      </div>
       <div className="space-y-20">
         <img
           className="absolute top-[450px] -right-5"
