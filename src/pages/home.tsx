@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import React from "react";
+import appStoreLogo from "@/assets/app-store.svg";
 
 export default function Home() {
   return (
@@ -14,11 +14,7 @@ export default function Home() {
         </p>
         <div className="flex gap-3 pt-7">
           <Button className="rounded-full flex items-center gap-3 p-6 px-10">
-            <img
-              src="/src/assets/app-store.svg"
-              alt="app-store"
-              className="w-5"
-            />
+            <img src={appStoreLogo} alt="app-store" className="w-5" />
             App Store
           </Button>
           <Button className="rounded-full flex items-center gap-3 p-6 px-10">
