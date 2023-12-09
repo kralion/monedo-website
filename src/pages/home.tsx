@@ -14,14 +14,26 @@ export default function Home() {
           La mejor app para controlar tus gastos.
         </p>
         <div className="flex gap-3 pt-7">
-          <Button className="rounded-full flex items-center gap-3 p-6 px-10">
-            <img src={appStoreLogo} alt="app-store" className="w-5" />
-            App Store
-          </Button>
-          <Button className="rounded-full flex items-center gap-3 p-6 px-10">
-            <img src={googlePlayLogo} alt="app-store" className="w-5" />
-            Google Play
-          </Button>
+          <a
+            //TODO: Add the correcct link to our app
+            href="https://apps.apple.com/us/app/todoist-to-do-list-planner/id572688855"
+            target="_blank"
+          >
+            <Button className="rounded-full  flex items-center gap-3 p-6 px-10">
+              <img src={appStoreLogo} alt="app-store" className="w-5" />
+              App Store
+            </Button>
+          </a>
+          <a
+            //TODO: Add the correcct link to our app
+            href="https://play.google.com/store/apps/details?id=com.samsung.android.spay&hl=en&gl=US"
+            target="_blank"
+          >
+            <Button className="rounded-full flex items-center gap-3 p-6 px-10">
+              <img src={googlePlayLogo} alt="app-store" className="w-5" />
+              Google Play
+            </Button>
+          </a>
         </div>
       </div>
     </div>

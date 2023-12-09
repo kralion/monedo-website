@@ -1,7 +1,19 @@
 import { Button } from "@/components/ui/button";
+import { useState, useEffect } from "react";
 import { ArrowDownToLine } from "lucide-react";
+const iosUrl =
+  "https://apps.apple.com/us/app/todoist-to-do-list-planner/id572688855";
+const androidUrl =
+  "https://play.google.com/store/apps/details?id=com.samsung.android.spay&hl=en&gl=US";
 
 export default function Features() {
+  const [url, setUrl] = useState(iosUrl);
+
+  useEffect(() => {
+    if (/Android/i.test(navigator.userAgent)) {
+      setUrl(androidUrl);
+    }
+  }, []);
   return (
     <div className="space-y-5  px-14">
       <div className="space-y-7">
@@ -13,10 +25,12 @@ export default function Features() {
           Simple, rápido y fácil de usar, registra tus gastos en menos de 10
           segundos.
         </p>
-        <Button className="rounded-full flex items-center gap-3 p-6 px-10">
-          Descargar
-          <ArrowDownToLine size={20} />
-        </Button>
+        <a href={url} target="_blank">
+          <Button className="rounded-full flex items-center gap-3 my-6 p-6 px-10">
+            Descargar
+            <ArrowDownToLine size={20} />
+          </Button>
+        </a>
         <div className="flex gap-7">
           <div className="mt-20 w-[500px] rounded-2xl h-[600px] relative overflow-hidden">
             <img
