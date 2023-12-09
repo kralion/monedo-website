@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Testimonials() {
   return (
     <div className="text-center justify-center flex flex-col items-center">
@@ -7,7 +5,11 @@ export default function Testimonials() {
         La gente habla de como ha cambiado su forma de gestionar sus finanzas
       </div>
       <div className="grid grid-cols-6 p-20 gap-7 grid-flow-row text-start">
-        <div className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="500"
+          className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5"
+        >
           <section className="flex items-center gap-2">
             <img
               src="https://mighty.tools/mockmind-api/content/human/68.jpg"
@@ -24,7 +26,11 @@ export default function Testimonials() {
             financiero que necesitaba !
           </p>
         </div>
-        <div className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="600"
+          className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5"
+        >
           <section className="flex items-center gap-2">
             <img
               src="https://mighty.tools/mockmind-api/content/human/65.jpg"
@@ -43,7 +49,11 @@ export default function Testimonials() {
             de mi presupuesto mensual.
           </p>
         </div>
-        <div className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="700"
+          className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5"
+        >
           <section className="flex items-center gap-2">
             <img
               src="https://mighty.tools/mockmind-api/content/human/35.jpg"
@@ -61,7 +71,11 @@ export default function Testimonials() {
           </p>
         </div>
         <div></div>
-        <div className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="800"
+          className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5"
+        >
           <section className="flex items-center gap-2">
             <img
               src="https://mighty.tools/mockmind-api/content/human/57.jpg"
@@ -78,7 +92,11 @@ export default function Testimonials() {
             incentiva a ahorrar!
           </p>
         </div>
-        <div className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="900"
+          className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5"
+        >
           <section className="flex items-center gap-2">
             <img
               src="https://mighty.tools/mockmind-api/content/human/43.jpg"

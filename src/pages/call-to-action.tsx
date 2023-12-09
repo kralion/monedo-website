@@ -5,6 +5,8 @@ import backgroundImage from "@/assets/cto.svg";
 export default function CallToAction() {
   return (
     <div
+      data-aos="fade-right"
+      data-aos-delay="1000"
       className="m-20 rounded-2xl flex px-10 pt-24 mt-10 h-[500px] justify-between"
       style={{
         backgroundImage: `url(${backgroundImage})`,

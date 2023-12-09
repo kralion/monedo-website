@@ -27,7 +27,12 @@ export default function Features() {
         mas eficiente y conciente de los gastos que realizas.
       </p>
       <div className="grid grid-rows-3 gap-7 grid-flow-col ">
-        <div className=" row-span-3 space-y-10 p-10 text-center items-center flex flex-col justify-start  border-t-2 bg-teal-200 border-teal-100 rounded-3xl h-[600px] relative overflow-hidden">
+        <div
+          data-aos="fade-right"
+          data-aos-delay="100"
+          data-aos-duration="2000"
+          className=" row-span-3 space-y-10 p-10 text-center items-center flex flex-col justify-start  border-t-2 bg-teal-200 border-teal-100 rounded-3xl h-[600px] relative overflow-hidden"
+        >
           <span className="font-montserrat font-black text-3xl tracking-tight text-center">
             Crea tu meta de ahorro
           </span>
@@ -43,7 +48,12 @@ export default function Features() {
           />
         </div>
         <div className="space-y-7">
-          <div className="  pl-10 py-10  border-t-2 bg-lime-200 justify-between  flex border-lime-100 rounded-3xl h-[250px] relative overflow-hidden">
+          <div
+            data-aos="fade-left"
+            data-aos-delay="100"
+            data-aos-duration="2000"
+            className="  pl-10 py-10  border-t-2 bg-lime-200 justify-between  flex border-lime-100 rounded-3xl h-[250px] relative overflow-hidden"
+          >
             <div className="space-y-5 flex  flex-col justify-center">
               <span className="font-montserrat font-black text-3xl tracking-tight ">
                 Grafico de gastos
