@@ -12,10 +12,14 @@ function AOSWrapper({ children }: ChildrenP) {
       duration: 2000,
     });
 
-    window.addEventListener("scroll", AOS.refresh());
+    const refreshAOS = () => {
+      AOS.refresh();
+    };
+
+    window.addEventListener("scroll", refreshAOS);
 
     return () => {
-      window.removeEventListener("scroll", AOS.refresh());
+      window.removeEventListener("scroll", refreshAOS);
     };
   }, []);
 
