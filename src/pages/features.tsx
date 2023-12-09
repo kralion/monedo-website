@@ -18,7 +18,7 @@ export default function Features() {
   }, []);
 
   return (
-    <div className="space-y-7 px-14 h-screen">
+    <div className="space-y-7 px-14 pt-36 h-screen">
       <h1 className="font-montserrat font-black text-4xl tracking-tight text-center">
         Nuestras Funcionalidades
       </h1>
@@ -65,7 +65,12 @@ export default function Features() {
             </div>
             <img src={chartGraphicAsset} alt="image" width={250} />
           </div>
-          <div className=" row-span-2 space-y-10 p-10  border-t-2 bg-indigo-200 border-indigo-100 rounded-3xl flex justify-between h-[320px] relative overflow-hidden">
+          <div
+            data-aos="fade-left"
+            data-aos-delay="100"
+            data-aos-duration="2000"
+            className=" row-span-2 space-y-10 p-10  border-t-2 bg-indigo-200 border-indigo-100 rounded-3xl flex justify-between h-[320px] relative overflow-hidden"
+          >
             <div className="space-y-5 flex  flex-col justify-center">
               <span className="font-montserrat font-black text-3xl tracking-tight ">
                 Notificaciones

@@ -6,7 +6,10 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="space-y-36">
       <NavBar />
-      <AOSWrapper>{children}</AOSWrapper>
+
+      <AOSWrapper>
+        <div className="pt-36">{children} </div>
+      </AOSWrapper>
     </div>
   );
 }

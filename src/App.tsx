@@ -6,16 +6,25 @@ import Footer from "./pages/footer";
 import Home from "./pages/home";
 import Samples from "./pages/samples";
 import Testimonials from "./pages/testimonials";
+import { Element } from "react-scroll";
 
 function App() {
   return (
     <AppLayout>
-      <Home />
+      <Element name="home">
+        <Home />
+      </Element>
       <Description />
-      <Features />
+      <Element name="features">
+        <Features />
+      </Element>
       <Samples />
-      <Testimonials />
-      <CallToAction />
+      <Element name="testimonials">
+        <Testimonials />
+      </Element>
+      <Element name="plans">
+        <CallToAction />
+      </Element>
       <Footer />
     </AppLayout>
   );

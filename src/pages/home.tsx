@@ -5,8 +5,8 @@ import Hero from "./hero";
 
 export default function Home() {
   return (
-    <div className="flex  ">
-      <div className="space-y-5 -mt-24 w-full flex flex-col justify-center items-center">
+    <div className="flex  pt-40">
+      <div className="space-y-5  w-full flex flex-col justify-center items-center">
         <h1 className="font-montserrat w-[600px]  text-center font-black text-6xl tracking-tight">
           Controla tus gastos fácil y rápido
         </h1>

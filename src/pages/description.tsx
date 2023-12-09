@@ -15,7 +15,7 @@ export default function Features() {
     }
   }, []);
   return (
-    <div className="space-y-5  px-14">
+    <div className="space-y-5 px-14 pt-36  ">
       <div className="space-y-7">
         <h1 className="font-montserrat font-black text-4xl tracking-tight">
           Registra para trackerlos
@@ -46,8 +46,8 @@ export default function Features() {
           </div>
           <div
             data-aos="fade-up"
-            data-aos-delay="100"
-            data-aos-duration="2000"
+            data-aos-delay="200"
+            data-aos-duration="1000"
             className="w-[800px] rounded-2xl h-[600px] relative overflow-hidden"
           >
             <img

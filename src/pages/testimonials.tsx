@@ -1,6 +1,6 @@
 export default function Testimonials() {
   return (
-    <div className="text-center justify-center flex flex-col items-center">
+    <div className="text-center justify-center px-14 h-screen  flex flex-col items-center">
       <div className="font-montserrat font-bold text-3xl tracking-tight w-1/2">
         La gente habla de como ha cambiado su forma de gestionar sus finanzas
       </div>

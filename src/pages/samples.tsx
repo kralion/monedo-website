@@ -4,7 +4,7 @@ import backgroundImage from "../assets/background-samples.svg";
 export default function Samples() {
   return (
     <div
-      className="w-screen h-screen flex flex-col justify-center items-center"
+      className="w-screen h-screen pt-36  flex flex-col justify-center items-center"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundRepeat: "no-repeat",
