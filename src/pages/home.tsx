@@ -1,12 +1,13 @@
 import { Button } from "@/components/ui/button";
 import appStoreLogo from "@/assets/app-store-white.svg";
 import googlePlayLogo from "@/assets/google-play.svg";
+import Hero from "./hero";
 
 export default function Home() {
   return (
-    <div className="flex ">
-      <div className="space-y-5 -mt-24 flex flex-col justify-center items-center">
-        <h1 className="font-montserrat px-80   text-center font-black text-6xl tracking-tight">
+    <div className="flex  ">
+      <div className="space-y-5 -mt-24 w-full flex flex-col justify-center items-center">
+        <h1 className="font-montserrat w-[600px]  text-center font-black text-6xl tracking-tight">
           Controla tus gastos fácil y rápido
         </h1>
 
@@ -34,6 +35,9 @@ export default function Home() {
               Google Play
             </Button>
           </a>
+        </div>
+        <div className="bg-gradient-to-t from-zinc-800 to-white w-full">
+          <Hero />
         </div>
       </div>
     </div>

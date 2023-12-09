@@ -35,7 +35,7 @@ export default function NavBar() {
       </div>
       <div className="flex justify-between">
         <div className="flex gap-2">
-          <Button>Iniciar Sesion</Button>
+          <Button>Contacto</Button>
           <MenuSelectable />
         </div>
       </div>

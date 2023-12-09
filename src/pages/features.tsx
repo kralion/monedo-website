@@ -3,11 +3,11 @@ import featuresAsset from "@/assets/save-goals.svg";
 import chartGraphicAsset from "@/assets/chart-graphic.svg";
 import notifiesAsset from "@/assets/notifies.svg";
 import { useState, useEffect } from "react";
-import { useSpring, animated } from "@react-spring/web";
 const iosUrl =
   "https://apps.apple.com/us/app/todoist-to-do-list-planner/id572688855";
 const androidUrl =
   "https://play.google.com/store/apps/details?id=com.samsung.android.spay&hl=en&gl=US";
+
 export default function Features() {
   const [url, setUrl] = useState(iosUrl);
 
@@ -16,16 +16,7 @@ export default function Features() {
       setUrl(androidUrl);
     }
   }, []);
-  const props = useSpring({
-    from: { opacity: 0, transform: "translateX(-100%)" },
-    to: { opacity: 1, transform: "translateX(0)" },
-    delay: 500,
-  });
-  const props2 = useSpring({
-    from: { opacity: 0, transform: "translateX(100%)" },
-    to: { opacity: 1, transform: "translateX(0)" },
-    delay: 500,
-  });
+
   return (
     <div className="space-y-7 px-14 h-screen">
       <h1 className="font-montserrat font-black text-4xl tracking-tight text-center">
@@ -36,12 +27,7 @@ export default function Features() {
         mas eficiente y conciente de los gastos que realizas.
       </p>
       <div className="grid grid-rows-3 gap-7 grid-flow-col ">
-        <animated.div
-          style={{
-            ...props,
-          }}
-          className=" row-span-3 space-y-10 p-10 text-center items-center flex flex-col justify-start  border-t-2 bg-teal-200 border-teal-100 rounded-3xl h-[600px] relative overflow-hidden"
-        >
+        <div className=" row-span-3 space-y-10 p-10 text-center items-center flex flex-col justify-start  border-t-2 bg-teal-200 border-teal-100 rounded-3xl h-[600px] relative overflow-hidden">
           <span className="font-montserrat font-black text-3xl tracking-tight text-center">
             Crea tu meta de ahorro
           </span>
@@ -55,13 +41,8 @@ export default function Features() {
             alt="image"
             className="absolute h-full -bottom-52 left-30 w-full object-contain"
           />
-        </animated.div>
-        <animated.div
-          style={{
-            ...props2,
-          }}
-          className="space-y-7"
-        >
+        </div>
+        <div className="space-y-7">
           <div className="  pl-10 py-10  border-t-2 bg-lime-200 justify-between  flex border-lime-100 rounded-3xl h-[250px] relative overflow-hidden">
             <div className="space-y-5 flex  flex-col justify-center">
               <span className="font-montserrat font-black text-3xl tracking-tight ">
@@ -91,7 +72,7 @@ export default function Features() {
             </div>
             <img src={notifiesAsset} alt="image" width={250} />
           </div>
-        </animated.div>
+        </div>
       </div>
     </div>
   );

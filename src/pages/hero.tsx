@@ -1,20 +1,16 @@
 import blackAsset from "@/assets/black.svg";
-import { animated, useSpring } from "@react-spring/web";
 export default function Hero() {
-  const props = useSpring({
-    from: { opacity: 0, transform: "translateX(-100%)" },
-    to: { opacity: 1, transform: "translateX(0)" },
-    delay: 500,
-  });
   return (
-    <div className="flex  justify-center ">
-      <animated.div
-        style={{
-          ...props,
-        }}
-      >
-        <img src={blackAsset} alt="phone" />
-      </animated.div>
+    <div
+      data-aos="fade-right"
+      data-aos-delay="20"
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      className="flex justify-center  "
+    >
+      <img className="drop-shadow-md" src={blackAsset} alt="phone" />
     </div>
   );
 }
