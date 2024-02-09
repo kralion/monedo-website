@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
 import appStoreLogo from "@/assets/app-store-white.svg";
 import googlePlayLogo from "@/assets/google-play.svg";
-import indexPageAsset from "@/assets/index-hero.svg";
-import statisticsPageAsset from "@/assets/statistics-hero.svg";
-import signupPageAsset from "@/assets/sign-up-hero.svg";
+import indexPageAsset from "@/assets/index-hero.png";
+import statisticsPageAsset from "@/assets/statistics-hero.png";
+import signupPageAsset from "@/assets/sign-up-hero.png";
 import NavBar from "@/components/shared/navbar";
 
 export default function Home() {
@@ -43,7 +43,7 @@ export default function Home() {
         <div className="flex gap-4 pt-20">
           <div
             data-aos="fade-right"
-            data-aos-delay="100"
+            data-aos-delay="400"
             data-aos-duration="2000"
           >
             <img
@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-left"
-            data-aos-delay="100"
+            data-aos-delay="300"
             data-aos-duration="2000"
           >
             <img
