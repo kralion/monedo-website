@@ -1,5 +1,5 @@
 import * as SelectPrimitive from "@radix-ui/react-select";
-import { ChevronDown, ChevronUp, LocateFixed, Menu } from "lucide-react";
+import { ChevronDown, ChevronUp, Menu, Check } from "lucide-react";
 import * as React from "react";
 
 import { cn } from "@/lib/utils";
@@ -123,7 +123,7 @@ const SelectItem = React.forwardRef<
   >
     <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
       <SelectPrimitive.ItemIndicator>
-        <LocateFixed className="h-4 w-4" />
+        <Check className="h-4 w-4" />
       </SelectPrimitive.ItemIndicator>
     </span>
 

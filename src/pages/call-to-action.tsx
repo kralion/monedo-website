@@ -28,7 +28,7 @@ export default function CallToAction() {
           >
             <Button className="rounded-full flex items-center gap-3  py-6 px-12 border-2 shadow-xl  backdrop-blur-md bg-white border-slate-200 text-black hover:bg-slate-100 ">
               <img src={appStoreLogo} alt="app-store" className="w-5" />
-              App Store
+              <span className="pt-1">App Store</span>
             </Button>
           </a>
           <a

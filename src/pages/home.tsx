@@ -24,7 +24,7 @@ export default function Home() {
             href="https://apps.apple.com/us/app/todoist-to-do-list-planner/id572688855"
             target="_blank"
           >
-            <Button className="rounded-full   flex items-center gap-3 lg:p-6 lg:px-10">
+            <Button className="rounded-full border-slate-700 border-2   flex items-center gap-3 lg:p-6 lg:px-10">
               <img src={appStoreLogo} alt="app-store" className="w-5" />
               App Store
             </Button>
@@ -34,7 +34,7 @@ export default function Home() {
             href="https://play.google.com/store/apps/details?id=com.samsung.android.spay&hl=en&gl=US"
             target="_blank"
           >
-            <Button className="rounded-full flex items-center gap-3 lg:p-6 lg:px-10">
+            <Button className="rounded-full border-slate-700 border-2  flex items-center gap-3 lg:p-6 lg:px-10">
               <img src={googlePlayLogo} alt="app-store" className="w-5" />
               Google Play
             </Button>
