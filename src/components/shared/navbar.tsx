@@ -63,7 +63,7 @@ export default function NavBar() {
     setMenuOpen(false);
   };
   return (
-    <div className="fixed top-0 lg:w-full">
+    <div className="fixed top-0 z-10 lg:w-full">
       <div className="flex lg:justify-between items-center lg:py-10 py-5 lg:px-14 px-5 gap-48 bg-white">
         <div className="flex gap-2 items-center">
           <img
