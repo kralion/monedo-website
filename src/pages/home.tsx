@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <div className="space-y-5 mt-36 flex flex-col justify-center items-center">
+      <div className="space-y-5 pt-40 flex flex-col justify-center items-center">
         <h1 className="font-montserrat lg:w-[600px] w-80 text-center font-black lg:text-6xl text-3xl tracking-tight">
           Controla tus gastos fácil y rápido
         </h1>
