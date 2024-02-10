@@ -4,9 +4,11 @@ import chartGraphicAsset from "@/assets/chart-graphic.svg";
 import notifiesAsset from "@/assets/notifies.svg";
 import { useState, useEffect } from "react";
 const iosUrl =
-  "https://apps.apple.com/us/app/todoist-to-do-list-planner/id572688855";
+  // "https://apps.apple.com/us/app/todoist-to-do-list-planner/id572688855";
+  "#";
 const androidUrl =
-  "https://play.google.com/store/apps/details?id=com.samsung.android.spay&hl=en&gl=US";
+  // "https://play.google.com/store/apps/details?id=com.samsung.android.spay&hl=en&gl=US";
+  "#";
 
 export default function Features() {
   const [url, setUrl] = useState(iosUrl);
@@ -36,7 +38,7 @@ export default function Features() {
           <span className="font-montserrat font-black text-3xl tracking-tight text-center">
             Crea tu meta de ahorro
           </span>
-          <a href="#" target="_blank">
+          <a href={url} target="_blank">
             <Button className="rounded-full flex items-center gap-3 p-6 px-10">
               Obtener la App
             </Button>
@@ -79,7 +81,7 @@ export default function Features() {
                 Recibe notificaciones de tus gastos y ahorros para que no te
                 pases de tu presupuesto
               </p>
-              <a href="#" target="_blank">
+              <a href={url} target="_blank">
                 <Button className="rounded-full flex items-center gap-3 w-36 p-6 border-2 border-indigo-300 backdrop-blur-md bg-indigo-400 hover:bg-indigo-500 ">
                   Obtener la App
                 </Button>
