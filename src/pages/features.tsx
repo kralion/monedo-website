@@ -36,7 +36,7 @@ export default function Features() {
           <span className="font-montserrat font-black text-3xl tracking-tight text-center">
             Crea tu meta de ahorro
           </span>
-          <a href={url} target="_blank">
+          <a href="#" target="_blank">
             <Button className="rounded-full flex items-center gap-3 p-6 px-10">
               Obtener la App
             </Button>
@@ -79,7 +79,7 @@ export default function Features() {
                 Recibe notificaciones de tus gastos y ahorros para que no te
                 pases de tu presupuesto
               </p>
-              <a href={url} target="_blank">
+              <a href="#" target="_blank">
                 <Button className="rounded-full flex items-center gap-3 w-36 p-6 border-2 border-indigo-300 backdrop-blur-md bg-indigo-400 hover:bg-indigo-500 ">
                   Obtener la App
                 </Button>

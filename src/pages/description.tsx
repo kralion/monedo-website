@@ -25,7 +25,7 @@ export default function Features() {
           Simple, rápido y fácil de usar, registra tus gastos en menos de 10
           segundos.
         </p>
-        <a href={url} target="_blank">
+        <a href="#" target="_blank">
           <Button className="rounded-full flex items-center gap-3 my-6 p-6 px-10">
             Descargar
             <ArrowDownToLine size={20} />

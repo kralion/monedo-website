@@ -23,8 +23,9 @@ export default function CallToAction() {
         <div className="flex gap-3 pt-7">
           <a
             //TODO: Add the correcct link to our app
-            href="https://apps.apple.com/us/app/todoist-to-do-list-planner/id572688855"
-            target="_blank"
+            // href="https://apps.apple.com/us/app/todoist-to-do-list-planner/id572688855"
+            // target="_blank"
+            href="#"
           >
             <Button className="rounded-full flex items-center gap-3  py-6 px-12 border-2 shadow-xl  backdrop-blur-md bg-white border-slate-200 text-black hover:bg-slate-100 ">
               <img src={appStoreLogo} alt="app-store" className="w-5" />
@@ -33,8 +34,9 @@ export default function CallToAction() {
           </a>
           <a
             //TODO: Add the correcct link to our app
-            href="https://play.google.com/store/apps/details?id=com.samsung.android.spay&hl=en&gl=US"
-            target="_blank"
+            // href="https://play.google.com/store/apps/details?id=com.samsung.android.spay&hl=en&gl=US"
+            // target="_blank"
+            href="#"
           >
             <Button className="rounded-full flex items-center gap-3  py-6 px-12 border-2 shadow-xl  backdrop-blur-md bg-white border-slate-200 text-black hover:bg-slate-100 ">
               <img src={googlePlayLogo} alt="app-store" className="w-5" />
