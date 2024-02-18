@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import featuresAsset from "@/assets/save-goals.svg";
+import featuresAsset from "@/assets/save-goals.png";
 import chartGraphicAsset from "@/assets/chart-graphic.svg";
 import notifiesAsset from "@/assets/notifies.svg";
 import { useState, useEffect } from "react";
@@ -46,7 +46,7 @@ export default function Features() {
           <img
             src={featuresAsset}
             alt="image"
-            className="absolute h-full -bottom-52 left-30 w-full object-contain"
+            className="absolute h-full -bottom-48 left-30 w-full object-contain"
           />
         </div>
         <div className="space-y-7">

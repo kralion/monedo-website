@@ -6,8 +6,8 @@ export default function Testimonials() {
       </div>
       <div className="grid grid-cols-6 p-20 gap-7 grid-flow-row text-start">
         <div
-          data-aos="fade-in"
-          data-aos-delay="500"
+          data-aos="fade-right"
+          data-aos-delay="100"
           className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5"
         >
           <section className="flex items-center gap-2">
@@ -27,8 +27,8 @@ export default function Testimonials() {
           </p>
         </div>
         <div
-          data-aos="fade-in"
-          data-aos-delay="600"
+          data-aos="zoom-in"
+          data-aos-delay="200"
           className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5"
         >
           <section className="flex items-center gap-2">
@@ -50,8 +50,8 @@ export default function Testimonials() {
           </p>
         </div>
         <div
-          data-aos="fade-in"
-          data-aos-delay="700"
+          data-aos="fade-left"
+          data-aos-delay="300"
           className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5"
         >
           <section className="flex items-center gap-2">
@@ -72,8 +72,8 @@ export default function Testimonials() {
         </div>
         <div></div>
         <div
-          data-aos="fade-in"
-          data-aos-delay="800"
+          data-aos="fade-up"
+          data-aos-delay="400"
           className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5"
         >
           <section className="flex items-center gap-2">
@@ -93,8 +93,8 @@ export default function Testimonials() {
           </p>
         </div>
         <div
-          data-aos="fade-in"
-          data-aos-delay="900"
+          data-aos="fade-up"
+          data-aos-delay="400"
           className="bg-zinc-100 col-span-2 space-y-3 rounded-3xl p-5"
         >
           <section className="flex items-center gap-2">
