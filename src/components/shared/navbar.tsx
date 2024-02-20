@@ -39,7 +39,7 @@ function MenuSelectable() {
 
   return (
     <Select onValueChange={handleSelect} defaultValue="home">
-      <SelectTrigger className="w-36">
+      <SelectTrigger className="w-36 pl-4 rounded-full">
         <SelectValue />
       </SelectTrigger>
       <SelectContent>
@@ -64,7 +64,7 @@ export default function NavBar() {
   };
   return (
     <div className=" fixed top-0 z-10 lg:w-full">
-      <div className=" flex lg:justify-between items-center lg:py-10 py-5 lg:px-14 px-5 bg-transparent backdrop-blur-md ">
+      <div className=" flex lg:justify-between items-center m-4 rounded-xl lg:py-10 py-5 lg:px-14 px-5 bg-transparent backdrop-blur-md ">
         <div className="flex gap-2 items-center">
           <img
             src="https://cdn-icons-png.flaticon.com/128/5200/5200787.png?ga=GA1.1.1536754857.1700396359&semt=aisemanticweb&semd=none&semg=2105250945&se=google&sv=1"
@@ -92,7 +92,7 @@ export default function NavBar() {
               href="https://api.whatsapp.com/send?phone=+51914019629&text=Hola, consulta sobre tu app Expense Tracker"
               target="_blank"
             >
-              <Button>Contacto</Button>
+              <Button className="rounded-full">Contacto</Button>
             </a>
             <MenuSelectable />
           </div>
