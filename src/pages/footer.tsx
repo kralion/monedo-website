@@ -10,15 +10,13 @@ export default function Footer() {
             alt="Vite Logo"
             className="h-8"
           />
-          <span className="font-montserrat font-bold text-xl">
-            Expense Tracker
-          </span>
+          <span className="font-montserrat font-bold text-xl">Monedo</span>
         </a>
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-          © 2023 Expense Tracker —
+          © {new Date().getFullYear()} Monedo —
           <a
             href="https://twitter.com/joanpaucar_"
-            className="text-gray-600 ml-1"
+            className="text-gray-600 ml-1 hover:underline"
             rel="noopener noreferrer"
             target="_blank"
           >

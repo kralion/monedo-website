@@ -71,16 +71,10 @@ export default function NavBar() {
             alt="Vite Logo"
             className="lg:h-8 h-4"
           />
-          <h3 className="font-montserrat font-bold lg:text-xl">
-            Expense Tracker
-          </h3>
+          <h3 className="font-montserrat font-bold lg:text-xl">Monedo</h3>
         </div>
         <div>
-          <Button
-            variant="secondary"
-            className="lg:hidden"
-            onClick={handleMenuOpen}
-          >
+          <Button className="lg:hidden" onClick={handleMenuOpen}>
             <Menu />
           </Button>
 
