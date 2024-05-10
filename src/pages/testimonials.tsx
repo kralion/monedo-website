@@ -44,9 +44,9 @@ export default function Testimonials() {
             </span>
           </section>
           <p className="font-montserrat font-medium text-sm">
-            ¡Increíble app! La versión premium de Expense Tracker, he mejorado
-            mi conciencia sobre los gastos que realizo, y así mantenerme dentro
-            de mi presupuesto mensual.
+            ¡Increíble app! La versión premium de Monedo, he mejorado mi
+            conciencia sobre los gastos que realizo, y así mantenerme dentro de
+            mi presupuesto mensual.
           </p>
         </div>
         <div
@@ -65,9 +65,9 @@ export default function Testimonials() {
             <span className="font-montserrat font-bold ">Alex Peña</span>
           </section>
           <p className="font-montserrat font-medium text-sm">
-            Expense Tracker es una joya para el control financiero. La versión
-            premium no solo me ayuda a rastrear mis gastos, sino que también me
-            motiva a ahorrar con las metas personalizadas
+            Monedo es una joya para el control financiero. La versión premium no
+            solo me ayuda a rastrear mis gastos, sino que también me motiva a
+            ahorrar con las metas personalizadas
           </p>
         </div>
         <div></div>
@@ -87,9 +87,9 @@ export default function Testimonials() {
             <span className="font-montserrat font-bold ">Javy Condezo</span>
           </section>
           <p className="font-montserrat font-medium text-sm">
-            Expense Tracker ha simplificado mi vida financiera. La opción
-            premium no solo me ayuda a controlar mis gastos, sino que también me
-            incentiva a ahorrar!
+            Monedo ha simplificado mi vida financiera. La opción premium no solo
+            me ayuda a controlar mis gastos, sino que también me incentiva a
+            ahorrar!
           </p>
         </div>
         <div
@@ -110,9 +110,8 @@ export default function Testimonials() {
             </span>
           </section>
           <p className="font-montserrat font-medium text-sm">
-            Como alguien que siempre luchó por seguir un presupuesto, Expense
-            Tracker ha sido una revelación. ¡Ahora puedo ser capaz de regular
-            mis gastos!"
+            Como alguien que siempre luchó por seguir un presupuesto, Monedo ha
+            sido una revelación. ¡Ahora puedo ser capaz de regular mis gastos!"
           </p>
         </div>
         <div></div>
