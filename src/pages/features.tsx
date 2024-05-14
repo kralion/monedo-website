@@ -18,7 +18,7 @@ export default function Features() {
   }, []);
 
   return (
-    <div className="space-y-7 px-14 pt-36 lg:h-screen">
+    <div className="space-y-7 lg:px-14 px-4 pt-36 lg:h-screen">
       <h1 className="font-montserrat font-black text-4xl tracking-tight text-center">
         Nuestras Funcionalidades
       </h1>

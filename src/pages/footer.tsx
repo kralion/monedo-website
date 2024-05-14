@@ -25,7 +25,7 @@ export default function Footer() {
         </p>
         <span className="flex items-center gap-3 sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a
-            href="https://twitter.com/joanpaucar_"
+            href="https://twitter.com/brayanpaucar_"
             rel="noopener noreferrer"
             target="_blank"
             className="hover:opacity-70 cursor-pointer"
@@ -38,7 +38,7 @@ export default function Footer() {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/joan-paucar/"
+            href="https://www.linkedin.com/in/brayanpaucar"
             rel="noopener noreferrer"
             target="_blank"
             className="hover:opacity-70 cursor-pointer"

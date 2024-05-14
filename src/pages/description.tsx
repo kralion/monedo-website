@@ -20,25 +20,27 @@ export default function Features() {
       <video
         controls
         loop
-        className="lg:w-[1000px] lg:h-auto mx-auto w-full h-[450px] object-cover lg:rounded-2xl shadow-xl"
+        className="lg:w-[1000px] lg:h-auto mx-auto w-full h-[450px] object-cover lg:rounded-2xl shadow-2xl"
       >
         <source src={MonedoVideo} type="video/mp4" />
       </video>
-      <div className="space-y-7 pt-36 px-14">
-        <h1 className="font-montserrat font-black text-4xl tracking-tight">
-          Registra para trackerlos
-        </h1>
+      <div className="space-y-7 pt-36 ">
+        <div className="space-y-7  px-14">
+          <h1 className="font-montserrat font-black text-4xl tracking-tight">
+            Registra para trackerlos
+          </h1>
 
-        <p className="text-lg lg:w-[400px] ">
-          Simple, rápido y fácil de usar, registra tus gastos en menos de 10
-          segundos.
-        </p>
-        <a href={url} target="_blank">
-          <Button className="rounded-full flex items-center gap-3 my-6 p-6 px-10">
-            Descargar
-            <ArrowDownToLine size={20} />
-          </Button>
-        </a>
+          <span className="text-lg lg:w-[400px] ">
+            Simple, rápido y fácil de usar, registra tus gastos en menos de 10
+            segundos.
+          </span>
+          <a href={url} target="_blank">
+            <Button className="rounded-full flex items-center gap-3 my-6 p-6 px-10 ">
+              Descargar
+              <ArrowDownToLine size={20} />
+            </Button>
+          </a>
+        </div>
         <div className="flex lg:gap-7 gap-2 ">
           <div
             data-aos="fade-up"

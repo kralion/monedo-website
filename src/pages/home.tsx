@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className={styles.background}>
       <NavBar />
-      <div className="space-y-5 pt-40 flex flex-col justify-center items-center">
+      <div className="space-y-5 pt-20 flex flex-col justify-center items-center">
         <h1 className="font-montserrat lg:w-[600px] w-80 text-center font-black lg:text-6xl text-3xl tracking-tight">
           Controla tus gastos fácil y rápido
         </h1>
@@ -52,7 +52,7 @@ export default function Home() {
             </Button>
           </a>
         </div>
-        <div className="flex gap-4 pt-20">
+        <div className="flex lg:gap-4 lg:pt-20 pt-10">
           <div
             data-aos="fade-right"
             data-aos-delay="400"

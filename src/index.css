@@ -75,3 +75,24 @@
     @apply bg-background text-foreground;
   }
 }
+/* This will affect the whole document */
+::-webkit-scrollbar {
+  width: 5px; /* For vertical scrollbars */
+  height: 5px; /* For horizontal scrollbars */
+}
+
+/* Optional: style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Optional: style the scrollbar handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #16913f;
+}
+
+/* Optional: style the scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #16913f;
+}
