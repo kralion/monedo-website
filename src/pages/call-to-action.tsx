@@ -1,13 +1,13 @@
 import { Button } from "@/components/ui/button";
-import appStoreLogo from "@/assets/app-store-black.svg";
-import googlePlayLogo from "@/assets/google-play-black.svg";
+// import appStoreLogo from "@/assets/app-store-black.svg";
+// import googlePlayLogo from "@/assets/google-play-black.svg";
 import backgroundImage from "@/assets/cto.svg";
 import { DownloadCloud } from "lucide-react";
 export default function CallToAction() {
   return (
     <div
       data-aos="fade-right"
-      className="m-20 rounded-2xl flex px-14 pt-20  mt-10 h-[500px] justify-between"
+      className="lg:m-20 lg:rounded-2xl flex lg:px-14 p-8 pt-20   mt-10 lg:h-[500px] justify-between"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundRepeat: "no-repeat",
@@ -16,7 +16,7 @@ export default function CallToAction() {
       }}
     >
       <div className="text-left space-y-14">
-        <p className="font-montserrat  text-white  text-left font-black text-6xl w-[550px] tracking">
+        <p className="font-montserrat  text-white  text-left font-black text-2xl lg:text-6xl lg:w-[550px] tracking">
           Descargar la app y tus gastos{" "}
           <span className="text-teal-200 drop-shadow-xl ">trackear</span> debes
         </p>

@@ -18,15 +18,15 @@ export default function Features() {
   }, []);
 
   return (
-    <div className="space-y-7 px-14 pt-36 h-screen">
+    <div className="space-y-7 px-14 pt-36 lg:h-screen">
       <h1 className="font-montserrat font-black text-4xl tracking-tight text-center">
         Nuestras Funcionalidades
       </h1>
-      <p className="text-lg  text-center px-[290px]">
+      <p className="text-lg  text-center lg:px-[290px]">
         Con nuestras funcionalidades a medida podrás controlar tus gastos y ser
         mas eficiente y conciente de los gastos que realizas.
       </p>
-      <div className="grid grid-rows-3 gap-7 grid-flow-col ">
+      <div className="lg:grid flex flex-col  lg:grid-rows-3 gap-7  lg:grid-flow-col ">
         <div
           data-aos="fade-right"
           data-aos-delay="100"
@@ -52,13 +52,13 @@ export default function Features() {
             data-aos="fade-left"
             data-aos-delay="100"
             data-aos-duration="2000"
-            className="  pl-10 py-10  border-t-2 bg-lime-200 justify-between  flex border-lime-100 rounded-3xl h-[250px] relative overflow-hidden"
+            className="  pl-10 py-10  border-t-2 bg-lime-200 justify-between lg:gap-0 gap-3  flex border-lime-100 rounded-3xl h-[250px] relative overflow-hidden"
           >
             <div className="space-y-5 flex  flex-col justify-center">
-              <span className="font-montserrat font-black text-3xl tracking-tight ">
+              <span className="font-montserrat font-black text-2xl lg:text-3xl tracking-tight ">
                 Grafico de gastos
               </span>
-              <p className="w-64">
+              <p className="lg:w-64 w-36 text-xs lg:text-md ">
                 Puedes visualizar en que gastas tu dinero y en que puedes
                 ahorrar, para que puedas cumplir tus metas
               </p>
@@ -72,10 +72,10 @@ export default function Features() {
             className=" row-span-2 space-y-10 p-10  border-t-2 bg-indigo-200 border-indigo-100 rounded-3xl flex justify-between h-[320px] relative overflow-hidden"
           >
             <div className="space-y-5 flex  flex-col justify-center">
-              <span className="font-montserrat font-black text-3xl tracking-tight ">
+              <span className="font-montserrat font-black text-2xl lg:text-3xl tracking-tight ">
                 Notificaciones
               </span>
-              <p className="w-64">
+              <p className="lg:w-64 w-36 text-xs lg:text-md ">
                 Recibe notificaciones de tus gastos y ahorros para que no te
                 pases de tu presupuesto
               </p>

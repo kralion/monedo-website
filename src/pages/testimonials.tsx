@@ -1,10 +1,10 @@
 export default function Testimonials() {
   return (
-    <div className="text-center justify-center px-14 h-screen  flex flex-col items-center">
-      <div className="font-montserrat font-bold text-3xl tracking-tight w-1/2">
+    <div className="text-center justify-center px-14 lg:h-screen  flex flex-col items-center">
+      <div className="font-montserrat font-bold lg:text-3xl text-xl tracking-tight lg:w-1/2">
         La gente habla de como ha cambiado su forma de gestionar sus finanzas
       </div>
-      <div className="grid grid-cols-6 p-20 gap-7 grid-flow-row text-start">
+      <div className="grid lg:grid-cols-6 lg:p-20 py-10 gap-7 lg:grid-flow-row text-start">
         <div
           data-aos="fade-right"
           data-aos-delay="100"

@@ -20,7 +20,7 @@ export default function Features() {
       <video
         controls
         loop
-        className="lg:w-[1000px] lg:h-auto mx-auto w-full h-96 object-cover rounded-2xl shadow-xl"
+        className="lg:w-[1000px] lg:h-auto mx-auto w-full h-[450px] object-cover lg:rounded-2xl shadow-xl"
       >
         <source src={MonedoVideo} type="video/mp4" />
       </video>
@@ -29,7 +29,7 @@ export default function Features() {
           Registra para trackerlos
         </h1>
 
-        <p className="text-lg w-[400px]">
+        <p className="text-lg lg:w-[400px] ">
           Simple, rápido y fácil de usar, registra tus gastos en menos de 10
           segundos.
         </p>
@@ -39,12 +39,12 @@ export default function Features() {
             <ArrowDownToLine size={20} />
           </Button>
         </a>
-        <div className="flex gap-7">
+        <div className="flex lg:gap-7 gap-2 ">
           <div
             data-aos="fade-up"
             data-aos-delay="100"
             data-aos-duration="2000"
-            className="mt-20 w-[500px] rounded-2xl h-[600px] relative overflow-hidden"
+            className="mt-20 lg:w-[500px] w-1/2 rounded-2xl h-[600px] relative overflow-hidden"
           >
             <img
               src="https://images.pexels.com/photos/7251055/pexels-photo-7251055.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
@@ -56,7 +56,7 @@ export default function Features() {
             data-aos="fade-up"
             data-aos-delay="200"
             data-aos-duration="1000"
-            className="w-[800px] rounded-2xl h-[600px] relative overflow-hidden"
+            className="lg:w-[800px] w-1/2 rounded-2xl h-[600px] relative overflow-hidden"
           >
             <img
               src="https://images.pexels.com/photos/826349/pexels-photo-826349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
