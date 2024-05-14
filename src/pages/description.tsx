@@ -3,11 +3,9 @@ import { useState, useEffect } from "react";
 import { ArrowDownToLine } from "lucide-react";
 import MonedoVideo from "../assets/video.mp4";
 const iosUrl =
-  // "https://apps.apple.com/us/app/todoist-to-do-list-planner/id572688855";
-  "#";
+  "https://drive.google.com/file/d/18ip58gH4EcfrsGtopiIjbgh6mFG5GSqc/view?usp=drive_link";
 const androidUrl =
-  // "https://play.google.com/store/apps/details?id=com.samsung.android.spay&hl=en&gl=US";
-  "#";
+  "https://drive.google.com/file/d/18ip58gH4EcfrsGtopiIjbgh6mFG5GSqc/view?usp=drive_link";
 
 export default function Features() {
   const [url, setUrl] = useState(iosUrl);

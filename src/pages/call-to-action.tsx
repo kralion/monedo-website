@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import appStoreLogo from "@/assets/app-store-black.svg";
 import googlePlayLogo from "@/assets/google-play-black.svg";
 import backgroundImage from "@/assets/cto.svg";
+import { DownloadCloud } from "lucide-react";
 export default function CallToAction() {
   return (
     <div
@@ -21,17 +22,15 @@ export default function CallToAction() {
         </p>
         <div className="flex gap-3 pt-7">
           <a
-            //TODO: Add the correcct link to our app
-            // href="https://apps.apple.com/us/app/todoist-to-do-list-planner/id572688855"
-            // target="_blank"
-            href="#"
+            href="https://drive.google.com/file/d/18ip58gH4EcfrsGtopiIjbgh6mFG5GSqc/view?"
+            target="_blank"
           >
             <Button className="rounded-full flex items-center gap-3  py-6 px-12 border-2 shadow-xl  backdrop-blur-md bg-white border-slate-200 text-black hover:bg-slate-100 ">
-              <img src={appStoreLogo} alt="app-store" className="w-5" />
-              <span className="pt-1">App Store</span>
+              <DownloadCloud size={20} />
+              <span className="pt-1">Descargar App</span>
             </Button>
           </a>
-          <a
+          {/* <a
             //TODO: Add the correcct link to our app
             // href="https://play.google.com/store/apps/details?id=com.samsung.android.spay&hl=en&gl=US"
             // target="_blank"
@@ -41,7 +40,7 @@ export default function CallToAction() {
               <img src={googlePlayLogo} alt="app-store" className="w-5" />
               Google Play
             </Button>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

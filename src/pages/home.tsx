@@ -1,16 +1,12 @@
 import { Button } from "@/components/ui/button";
-import appStoreLogo from "@/assets/app-store-white.svg";
-import googlePlayLogo from "@/assets/google-play.svg";
+// import appStoreLogo from "@/assets/app-store-white.svg";
+// import googlePlayLogo from "@/assets/google-play.svg";
 import indexPageAsset from "@/assets/index-hero.png";
 import statisticsPageAsset from "@/assets/statistics-hero.png";
 import signupPageAsset from "@/assets/sign-up-hero.png";
 import NavBar from "@/components/shared/navbar";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+
+import { DownloadCloud } from "lucide-react";
 
 export default function Home() {
   return (
@@ -33,7 +29,7 @@ export default function Home() {
           La mejor app para controlar tus gastos.
         </p>
         <div className="flex gap-3 pt-7">
-          <TooltipProvider>
+          {/* <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
                 <a
@@ -52,27 +48,16 @@ export default function Home() {
                 <p>La app está en proceso de revisión</p>
               </TooltipContent>
             </Tooltip>
-          </TooltipProvider>
-          <TooltipProvider>
-            <Tooltip>
-              <TooltipTrigger>
-                <a
-                  //TODO: Add the correcct link to our app
-                  // href="https://play.google.com/store/apps/details?id=com.samsung.android.spay&hl=en&gl=US"
-                  href="#"
-                  // target="_blank"
-                >
-                  <Button className="rounded-full cursor-not-allowed border-slate-700 border-2  flex items-center gap-3 lg:p-6 lg:px-10">
-                    <img src={googlePlayLogo} alt="app-store" className="w-5" />
-                    Google Play
-                  </Button>
-                </a>
-              </TooltipTrigger>
-              <TooltipContent className="mb-2 bg-red-100/50 border-red-500 text-red-700">
-                <p>La app está en proceso de publicación</p>
-              </TooltipContent>
-            </Tooltip>
-          </TooltipProvider>
+          </TooltipProvider> */}
+          <a
+            href="https://drive.google.com/file/d/18ip58gH4EcfrsGtopiIjbgh6mFG5GSqc/view?usp=drive_link"
+            target="_blank"
+          >
+            <Button className="rounded-full cursor-pointer  border-slate-700 border-2  flex items-center gap-3 lg:p-6 lg:px-10">
+              <DownloadCloud className="w-5" />
+              Download APK
+            </Button>
+          </a>
         </div>
         <div className="flex gap-4 pt-20">
           <div
