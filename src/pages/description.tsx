@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 import { ArrowDownToLine } from "lucide-react";
+import MonedoVideo from "../assets/video.mp4";
 const iosUrl =
   // "https://apps.apple.com/us/app/todoist-to-do-list-planner/id572688855";
   "#";
@@ -17,8 +18,15 @@ export default function Features() {
     }
   }, []);
   return (
-    <div className="space-y-5 px-14 pt-36  ">
-      <div className="space-y-7">
+    <div className="space-y-5  ">
+      <video
+        controls
+        loop
+        className="lg:w-[1000px] lg:h-auto mx-auto w-full h-96 object-cover rounded-2xl shadow-xl"
+      >
+        <source src={MonedoVideo} type="video/mp4" />
+      </video>
+      <div className="space-y-7 pt-36 px-14">
         <h1 className="font-montserrat font-black text-4xl tracking-tight">
           Registra para trackerlos
         </h1>
