@@ -6,7 +6,6 @@ import {
   SheetHeader,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
 import { useEffect, useState } from "react";
 import { scroller as scrollSpy } from "react-scroll";
 import { Button } from "../ui/button";
