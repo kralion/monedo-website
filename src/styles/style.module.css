@@ -1,0 +1,12 @@
+.background {
+  background-image: url("https://img.freepik.com/premium-photo/abstract-29-light-background-wallpaper-colorful-gradient-blurry-soft-smooth-motion-bright-shine_792836-149460.jpg?size=626&ext=jpg&ga=GA1.1.1405311743.1707842042&semt=ais");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (max-width: 600px) {
+  .background {
+    background-size: 100% 100%;
+  }
+}

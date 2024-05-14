@@ -15,7 +15,7 @@ export default function Footer() {
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
           © {new Date().getFullYear()} Monedo —
           <a
-            href="https://twitter.com/joanpaucar_"
+            href="https://twitter.com/brayanpaucar_"
             className="text-gray-600 ml-1 hover:underline"
             rel="noopener noreferrer"
             target="_blank"

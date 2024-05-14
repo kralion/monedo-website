@@ -5,20 +5,13 @@ import indexPageAsset from "@/assets/index-hero.png";
 import statisticsPageAsset from "@/assets/statistics-hero.png";
 import signupPageAsset from "@/assets/sign-up-hero.png";
 import NavBar from "@/components/shared/navbar";
+import styles from "@/styles/style.module.css";
 
 import { DownloadCloud } from "lucide-react";
 
 export default function Home() {
   return (
-    <div
-      style={{
-        backgroundImage:
-          "url('https://img.freepik.com/premium-photo/abstract-29-light-background-wallpaper-colorful-gradient-blurry-soft-smooth-motion-bright-shine_792836-149460.jpg?size=626&ext=jpg&ga=GA1.1.1405311743.1707842042&semt=ais')",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
-      }}
-    >
+    <div className={styles.background}>
       <NavBar />
       <div className="space-y-5 pt-40 flex flex-col justify-center items-center">
         <h1 className="font-montserrat lg:w-[600px] w-80 text-center font-black lg:text-6xl text-3xl tracking-tight">
